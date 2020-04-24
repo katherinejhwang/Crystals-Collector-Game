@@ -1,0 +1,160 @@
+body {
+  background-image: url("/assets/images/background2.jpg")
+}
+
+
+.row1 {
+  height: 25px;
+}
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  animation: 
+    nudge 5s linear infinite alternate;
+}
+
+@keyframes nudge {
+  0%, 100% {
+    transform: translate(0, 0);
+  }
+  
+  50% {
+    transform: translate(150px, 0);
+  }
+  
+  80% {
+    transform: translate(-150px, 0);
+  }
+}
+
+
+#sg {
+  text-align: center;
+  justify-content: center;
+}
+
+#start {
+  padding: 15px;
+  border-radius: 20px;
+  font-family: 'Pacifico', cursive;
+  color: teal;
+  width: 100%;
+  border: 2px solid teal
+    
+}
+
+h6 {
+  color: teal;
+  font-size: 70px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+  border: 2px solid teal;
+  background: white;
+  border-radius: 20px;
+}
+
+#score {
+  text-align: center;
+  color: teal;
+  font-size: 50px;
+  font-weight: 900;
+  font-family: 'Pacifico', cursive;
+  border-radius: 30px;
+  padding: 15px;
+  background: white;
+  opacity: 97%;
+  border: 1px teal solid;
+}
+
+#crystalscore  {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  font-size: 40px;
+  text-align: center;
+}
+
+#yourscore {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  font-size: 40px;  
+  text-align: center
+}
+
+
+#crystals {
+  height: auto;
+  
+
+}
+
+img {
+  border-radius: 40px;
+  justify-content: center;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+
+}
+
+img:hover {
+  opacity: 0.5;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#wandl {
+  height: auto;
+  padding: 5px 0px 5px;
+  font-family: 'Pacifico', cursive;
+}
+
+#wins {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  color: coral;
+  text-align: center;
+  background: #92398d;
+  border-radius: 15px;
+  border: 1px solid
+}
+
+#losses {
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  color:coral;
+  text-align: center;
+  background: #92398d;
+  border-radius: 15px;
+  border: 1px solid
+}
+
+
+#instructions {
+  opacity: 80%;
+  border-radius: 30px;
+  width: 75%;
+  height: 100%;
+  padding: 15px;
+  font-style: italic;
+  text-align: center;
+  color: white;
+  font-family: 'Pacifico', cursive;
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+}

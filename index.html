@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./assets/javascript/game.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Pacifico&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Crystals Collector Game</title>
+
+  </head>
+  <body>
+    
+    <div class="container">
+
+                <!-- Separator Row -->
+                <div class="row1"></div>
+
+<!-- Header -->
+      <div class="row" id="header">
+        <div class="col" id="btn">      <button id="start"><h6>Crystals Collector!</h6></button>
+        </div>
+      </div>
+
+<!-- Separator Row -->
+<div class="row1"></div>
+
+      <!-- Board -->
+        <div class="row">
+         
+          <div class="col-1"></div>
+
+          <!-- Crystal Score -->
+          <div class="col-4" id="score">
+            <h3>Crystal Score</h3>
+          <div id="crystalscore">           </div>
+          </div>
+
+          <div class="col-2"></div>
+
+          <!-- User Score -->
+          <div class="col-4" id="score"> <h3>Your score</h3><div id="yourscore"></div>
+          </div>
+
+          <div class="col-1"></div>
+
+        </div>
+        
+          <!-- Separator Row -->
+      <div class="row1"> </div>
+    
+      <!-- Crystals -->
+        <div class="row" id="crystals">
+
+            <div class="col" id="crystals">
+              <div class="crystal" id="crystal1"><img src="./assets/images/crystal1.jpg" alt="crystal1" height="100" width="100"></div>
+            </div>
+
+            <div class="col" id="crystals">
+              <div class="crystal" id="crystal2"><img src="./assets/images/crystal2.jpg" alt="crystal2" height="100" width="100"></div>
+            </div>
+
+            <div class="col" id="crystals">
+              <div class="crystal" id="crystal3"><img src="./assets/images/crystal3.jpg" alt="crystal3" height="100" width="100"></div>
+            </div>
+
+            <div class="col" id="crystals">
+              <div class="crystal" id="crystal4"><img src="./assets/images/crystal1.jpg" alt="crystal4" height="100" width="100"></div>
+            </div>
+
+        </div>
+
+                  <!-- Separator Row -->
+      <div class="row1"></div>
+
+      <!-- Wins & Losses -->
+        <div class="row" id="wandl">
+          
+          <div class="col-1"></div>
+          
+          <div class="col-5" id="wins">
+            <h4>Wins: <div id="win"></div></h4>
+          </div>
+          
+          <div class="col-5" id="losses">
+            <h4>Losses: <div id="loss"></div></h4>
+          </div>
+          
+          </div>
+
+                  <!-- Separator Row -->
+                  <div class="row1"></div>
+
+                  <!-- Instructions -->
+<div class="col" id="instructions">
+        <h4>How to Play</h4>
+        <h7>* Match "Your Score" to the "Crystal Score"
+        <br>* Each of the four crystals has a different value. Click on a crystal to add a specific amount of points to the player's total score.
+        <br>* You must match the score exactly to win. 
+        <br>* If you go pass the "Crystal Score", then you lose.
+        <br>* The game will restart whenever you win or lose. When the game restarts, the crystals will all have new numbers.
+      </div>
+
+
+
+</div>
+  </body>
+</html>

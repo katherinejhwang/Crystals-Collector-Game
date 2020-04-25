@@ -1,5 +1,8 @@
 # Crystals-Collector-Game
 
+Trilogy Education Services Fullstack Web Development Bootcamp
+UCLA Extension, Spring 2019 Cohort
+
 Option One: CrystalsCollector Game (Recommended)
 The player will have to guess the answer. The player will guess with numbers instead of letters.
 

@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystals-Collector-Game
 
 Option One: CrystalsCollector Game (Recommended)
 The player will have to guess the answer. The player will guess with numbers instead of letters.
